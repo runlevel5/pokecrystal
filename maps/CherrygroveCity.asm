@@ -354,9 +354,9 @@ GuideGentTourText1:
 
 GuideGentPokecenterText:
 	text "Đây là TRUNG TÂM"
-	line "POKEMON. Họ hồi"
+	line "#MON. Họ hồi"
 
-	para "phục POKEMON của"
+	para "phục #MON của"
 	line "bạn rất nhanh."
 
 	para "Bạn sẽ cần đến"
@@ -368,10 +368,10 @@ GuideGentPokecenterText:
 
 GuideGentMartText:
 	text "Đây là CỬA HÀNG"
-	line "POKEMART."
+	line "#MART."
 
 	para "Họ bán BALL để"
-	line "bắt POKEMON hoang"
+	line "bắt #MON hoang"
 
 	para "dã và các vật"
 	line "phẩm hữu ích."
@@ -382,7 +382,7 @@ GuideGentRoute30Text:
 	line "phía này."
 
 	para "Các HLV sẽ chiến"
-	line "đấu POKEMON quý"
+	line "đấu #MON quý"
 
 	para "của họ ở đó."
 	done
@@ -391,7 +391,7 @@ GuideGentSeaText:
 	text "Đây là biển, như"
 	line "bạn thấy đó."
 
-	para "Một số POKEMON"
+	para "Một số #MON"
 	line "chỉ sống trong"
 	cont "nước."
 	done
@@ -431,7 +431,7 @@ GuideGentNoText:
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "Mày có POKEMON ở"
+	para "Mày có #MON ở"
 	line "PTN rồi à."
 
 	para "Thật phí."
@@ -443,7 +443,7 @@ CherrygroveRivalText_Seen:
 	line "nói gì à?"
 
 	para "Tao cũng có một"
-	line "POKEMON xịn."
+	line "#MON xịn."
 
 	para "Tao sẽ cho mày"
 	line "thấy!"
@@ -460,7 +460,7 @@ CherrygroveRivalText_YouLost:
 	para "Tao tên ???."
 
 	para "Tao sẽ trở thành"
-	line "HLV POKEMON vĩ"
+	line "HLV #MON vĩ"
 	cont "đại nhất thế"
 	cont "giới."
 	done
@@ -476,7 +476,7 @@ CherrygroveRivalText_YouWon:
 	para "Tao tên ???."
 
 	para "Tao sẽ trở thành"
-	line "HLV POKEMON vĩ"
+	line "HLV #MON vĩ"
 	cont "đại nhất thế"
 	cont "giới."
 	done
@@ -484,7 +484,7 @@ CherrygroveRivalText_YouWon:
 CherrygroveTeacherText_NoMapCard:
 	text "Bạn có nói chuyện"
 	line "với ông già ở TT"
-	cont "POKEMON chưa?"
+	cont "#MON chưa?"
 
 	para "Ông ấy sẽ cài BẢN"
 	line "ĐỒ JOHTO vào"
@@ -493,12 +493,12 @@ CherrygroveTeacherText_NoMapCard:
 
 CherrygroveTeacherText_HaveMapCard:
 	text "Khi đi cùng"
-	line "POKEMON, đi đâu"
+	line "#MON, đi đâu"
 	cont "cũng vui."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "Nhà ÔNG POKEMON"
+	text "Nhà ÔNG #MON"
 	line "còn xa hơn phía"
 	cont "trước."
 	done
@@ -508,15 +508,15 @@ CherrygroveYoungsterText_HavePokedex:
 	line "các HLV trên"
 	cont "đường đi."
 
-	para "POKEMON tôi thua."
+	para "#MON tôi thua."
 	line "Chúng tan tác!"
 
 	para "Tôi phải đưa chúng"
-	line "đến TT POKEMON."
+	line "đến TT #MON."
 	done
 
 MysticWaterGuyTextBefore:
-	text "POKEMON tôi bắt"
+	text "#MON tôi bắt"
 	line "có mang vật phẩm."
 
 	para "Tôi nghĩ đó là"
