@@ -517,9 +517,9 @@ SetDayOfWeek:
 	dw .Sunday
 
 .Sunday:    db "CHỦ NHẬT@"
-.Monday:    db " THỨ HAI@"
-.Tuesday:   db " THỨ BA@"
-.Wednesday: db " THỨ TƯ@"
+.Monday:    db "THỨ HAI@"
+.Tuesday:   db "THỨ BA@"
+.Wednesday: db "THỨ TƯ@"
 .Thursday:  db "THỨ NĂM@"
 .Friday:    db "THỨ SÁU@"
 .Saturday:  db "THỨ BẢY@"
