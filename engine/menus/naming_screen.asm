@@ -273,15 +273,16 @@ NamingScreen_InitText:
 
 .not_box
 	call ClearBox
-	ld de, NameInputUpper
+	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	assert BoxNameInputLower - NameInputLower == BoxNameInputUpper - NameInputUpper
-	ld hl, BoxNameInputLower - NameInputLower
-	add hl, de
-	ld d, h
-	ld e, l
+	; For box naming, use the old 2-page system
+	ld de, BoxNameInputUpper
+	ld a, [wNamingScreenLetterCase]
+	and 1
+	jr z, .not_box
+	ld de, BoxNameInputLower
 
 .not_box
 	push de
@@ -452,15 +453,43 @@ NamingScreenJoypadLoop:
 .select
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
-	xor 1
+	inc a
+	cp 5
+	jr c, .no_wrap
+	xor a
+.no_wrap
 	ld [hl], a
-	jr z, .upper
-	ld de, NameInputLower
+	; a = 0: Page1, 1: Page2, 2: Page3, 3: Page4, 4: Page5
+	and a
+	jr z, .page1
+	cp 1
+	jr z, .page2
+	cp 2
+	jr z, .page3
+	cp 3
+	jr z, .page4
+	; else page5
+	ld de, NameInputPage5
 	call NamingScreen_ApplyTextInputMode
 	ret
 
-.upper
-	ld de, NameInputUpper
+.page1
+	ld de, NameInputPage1
+	call NamingScreen_ApplyTextInputMode
+	ret
+
+.page2
+	ld de, NameInputPage2
+	call NamingScreen_ApplyTextInputMode
+	ret
+
+.page3
+	ld de, NameInputPage3
+	call NamingScreen_ApplyTextInputMode
+	ret
+
+.page4
+	ld de, NameInputPage4
 	call NamingScreen_ApplyTextInputMode
 	ret
 
