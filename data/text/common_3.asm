@@ -1,28 +1,29 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Lúc nãy bạn nói"
+	line "tên bạn là?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, bạn đã"
+	line "sẵn sàng?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Câu chuyện"
+	line "#MON chuẩn bị"
+	cont "bắt đầu."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Bạn sẽ đối đầu"
+	line "với nhiều thử thách"
+	cont "thú vị."
 
-	para "A world of dreams"
-	line "and adventures"
+    para "Một thế giới của"
+	line "mơ ước và phiêu"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "lưu với #MON"
+	line "đang chờ đợi bạn!"
+	cont "Hãy bắt đầu nào!"
 
-	para "I'll be seeing you"
-	line "later!"
+    para "Tôi sẽ gặp bạn"
+	line "sau một chút!"
 	done
 
 _ClockTimeMayBeWrongText::

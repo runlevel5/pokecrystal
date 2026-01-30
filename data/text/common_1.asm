@@ -157,19 +157,19 @@ _OakTimeWokeUpText::
 	text "<……><……><……><……><……><……>"
 	line "<……><……><……><……><……><……>"
 
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
+	para "khò khò… hả? sao…?"
+	line "Tỉnh cả ngủ!!!"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "Bạn làm ơn kiểm"
+	line "tra giờ cho tôi"
 	prompt
 
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "Mấy giờ rồi?"
 	done
 
 _OakTimeWhatHoursText::
-	text "What?@"
+	text "Sao cơ?@"
 	text_end
 
 _OakTimeHoursQuestionMarkText::
@@ -177,11 +177,11 @@ _OakTimeHoursQuestionMarkText::
 	done
 
 _OakTimeHowManyMinutesText::
-	text "How many minutes?"
+	text "Bao nhiêu phút?"
 	done
 
 _OakTimeWhoaMinutesText::
-	text "Whoa!@"
+	text "Trời!@"
 	text_end
 
 _OakTimeMinutesQuestionMarkText::
@@ -190,27 +190,27 @@ _OakTimeMinutesQuestionMarkText::
 
 _OakTimeOversleptText::
 	text "!"
-	line "I overslept!"
+	line "Tôi ngủ quên!"
 	done
 
 _OakTimeYikesText::
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "Trời ạ! tôi ngủ"
+	cont "quên!"
 	done
 
 _OakTimeSoDarkText::
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "Chả trách sao trời"
+	cont "vẫn còn tối!"
 	done
 
 _OakTimeWhatDayIsItText::
-	text "What day is it?"
+	text "Hôm nay thứ mấy?"
 	done
 
 _OakTimeIsItText::
-	text ", is it?"
+	text ", phải không?"
 	done
 
 ; Mobile Adapter
@@ -350,13 +350,13 @@ _LookGiantDecoText::
 	done
 
 _MomHiHowAreYouText::
-	text "Hi, <PLAYER>!"
-	line "How are you?"
+	text "xin chào, <PLAYER>!"
+	line "bạn khỏe không?"
 	prompt
 
 _MomFoundAnItemText::
-	text "I found a useful"
-	line "item shopping, so"
+	text "mẹ tìm được một"
+	line "đồ vật hữu ích,"
 	prompt
 
 _MomBoughtWithYourMoneyText::

@@ -130,7 +130,7 @@ NamingScreenJumptable:
 	ret
 
 .PlayerNameString:
-	db "YOUR NAME?@"
+	db "Tên bạn là?@"
 
 .Rival:
 	ld de, RivalSpriteGFX

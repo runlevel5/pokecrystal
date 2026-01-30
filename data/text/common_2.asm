@@ -663,8 +663,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Bạn là nam?"
+	line "hay nữ?"
 	done
 
 Text_BattleEffectActivate::
@@ -1526,22 +1526,22 @@ _MayRegisterItemText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Xin chào! Xin lỗi"
+	line "bắt bạn phải chờ!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Chào mừng đến với"
+	line "thế giới #MON!"
 
-	para "My name is OAK."
+	para "Tên tôi là OAK."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Nguời ta gọi tôi"
+	line "giáo sư #MON"
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
+	text "Thế giới này cư"
+	line "trú bởi loài vật"
+	cont "chúng ta gọi là"
 	cont "#MON.@"
 	text_end
 
@@ -1552,26 +1552,27 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Người và #MON"
+	line "chung sống hài"
 
-	para "supporting each"
-	line "other."
+	para "hoà với nhau."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Có người chơi"
+	line "với #MON, có"
+	cont "người thi đấu với"
+	cont "chúng."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Nhưng chúng ta"
+	line "không biết hết về"
+	cont "#MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Còn nhiều ẩn số"
+	line "vẫn chưa có lời"
+	cont "giải đáp."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "đó là lý do tôi"
+	line "miệt mài nghiên"
+	cont "cứu #MON."
 	prompt

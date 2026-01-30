@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "CN@"
+	db "T2@"
+	db "T3@"
+	db "T4@"
+	db "T5@"
+	db "T6@"
+	db "T7@"
 
 .Day:
-	db "DAY@"
+	db "ngày@"
 
 NewGame_ClearTilemapEtc:
 	xor a

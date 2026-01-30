@@ -66,8 +66,8 @@ MainMenu:
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
 	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
+	db "game mới@"
+	db "tuỳ chọn@"
 	db "MYSTERY GIFT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
@@ -317,7 +317,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .minString: ; unreferenced
-	db "min.@"
+	db "phút@"
 
 .PrintTimeNotSet:
 	hlcoord 1, 14

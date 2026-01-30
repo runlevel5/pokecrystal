@@ -561,8 +561,8 @@ MenuData_0x484f9:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 2 ; items
 Strings_484fb:
-String_484fb: db "Boy@"
-String_484ff: db "Girl@"
+String_484fb: db "nam@"
+String_484ff: db "nữ@"
 
 MenuHeader_0x48504:
 	db MENU_BACKUP_TILES ; flags
