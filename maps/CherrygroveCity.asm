@@ -368,7 +368,7 @@ GuideGentPokecenterText:
 
 GuideGentMartText:
 	text "Đây là CỬA HÀNG"
-	line "POKEMON."
+	line "POKEMART."
 
 	para "Họ bán BALL để"
 	line "bắt POKEMON hoang"
