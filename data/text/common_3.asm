@@ -11,8 +11,8 @@ _OakText7::
 	line "#MON chuẩn bị"
 	cont "bắt đầu."
 
-	para "Bạn sẽ đối đầu"
-	line "với nhiều thử thách"
+	para "Bạn sẽ đối đầu với"
+	line "nhiều thử thách"
 	cont "thú vị."
 
     para "Một thế giới của"
