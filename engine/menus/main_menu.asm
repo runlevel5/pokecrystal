@@ -348,15 +348,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "CHỦ NHẬT@"
+	db "THỨ HAI@"
+	db "THỨ BA@"
+	db "THỨ TƯ@"
+	db "THỨ NĂM@"
+	db "THỨ SÁU@"
+	db "THỨ BẢY@"
 .Day:
-	db "DAY@"
+	db "@"
 
 ClearTilemapEtc:
 	xor a

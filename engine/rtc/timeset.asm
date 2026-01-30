@@ -516,13 +516,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " SUNDAY@"
-.Monday:    db " MONDAY@"
-.Tuesday:   db " TUESDAY@"
-.Wednesday: db "WEDNESDAY@"
-.Thursday:  db "THURSDAY@"
-.Friday:    db " FRIDAY@"
-.Saturday:  db "SATURDAY@"
+.Sunday:    db "CHỦ NHẬT@"
+.Monday:    db " THỨ HAI@"
+.Tuesday:   db " THỨ BA@"
+.Wednesday: db " THỨ TƯ@"
+.Thursday:  db "THỨ NĂM@"
+.Friday:    db "THỨ SÁU@"
+.Saturday:  db "THỨ BẢY@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
