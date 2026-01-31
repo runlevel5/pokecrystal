@@ -1203,13 +1203,13 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " OPTION ", $3c, -1
 
 .Modes:
-	db   "NEW #DEX MODE"
-	next "OLD #DEX MODE"
-	next "A to Z MODE"
+	db   "CHẾ ĐỘ #DEX MỚI"
+	next "CHẾ ĐỘ #DEX CŨ"
+	next "CHẾ ĐỘ A đến Z"
 	db   "@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "CHẾ ĐỘ UNOWN@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1280,9 +1280,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
+	db   "KẾT QUẢ TÌM KIẾM"
+	next "  HỆ"
+	next "    TÌM THẤY!"
 	db   "@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
@@ -1740,12 +1740,12 @@ Pokedex_DisplayModeDescription:
 	next "official type.@"
 
 .ABCMode:
-	db   "<PK><MN> are listed"
-	next "alphabetically.@"
+	db   "<PK><MN> được liệt kê"
+	next "theo thứ tự A-Z.@"
 
 .UnownMode:
-	db   "UNOWN are listed"
-	next "in catching order.@"
+	db   "UNOWN được liệt kê"
+	next "theo thứ tự bắt.@"
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -1767,8 +1767,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Changing modes."
-	next "Please wait.@"
+	db   "Đang đổi chế độ."
+	next "Xin chờ.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -1967,8 +1967,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "The specified type"
-	next "was not found.@"
+	db   "Không tìm thấy"
+	next "hệ đã chọn.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]
