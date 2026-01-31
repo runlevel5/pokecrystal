@@ -93,10 +93,10 @@ CooltrainermCodyAfterBattleText:
 	text "Thành viên của bộ"
 	line "tộc dùng rồng này"
 
-	para "chỉ được dùng #-"
-	line "MON rồng sau khi"
+	para "chỉ được dùng"
+	line "#MON rồng sau"
 
-	para "BẬC THẦY chúng tôi"
+	para "khi BẬC THẦY ta"
 	line "cho phép."
 	done
 

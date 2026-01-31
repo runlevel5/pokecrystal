@@ -365,8 +365,8 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 
 GoldenrodGameCornerPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "Máy này trông giống"
-	line "như máy khác."
+	text "Máy này trông như"
+	line "máy khác."
 	done
 else
 	text "Tôi luôn chơi máy"

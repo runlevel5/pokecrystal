@@ -714,7 +714,8 @@ GoldenrodPokecenter1FLassText:
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, đúng không?"
+	text "Bạn là <PLAYER>,"
+	line "đúng không?"
 
 	para "Chúc mừng bạn!"
 

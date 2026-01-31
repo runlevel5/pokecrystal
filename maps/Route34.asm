@@ -565,11 +565,11 @@ CamperTodd1BeatenText:
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "take one to a DAY-"
+	text "Có lẽ tôi nên"
+	line "gửi nó đến"
 
-	para "CARE. Or maybe use"
-	line "some items…"
+	para "NHÀ GIỮ TRẺ. Hay"
+	line "dùng đồ gì đó…"
 	done
 
 CamperToddSaleText:
@@ -624,12 +624,12 @@ OfficerKeithDaytimeText:
 	done
 
 PokefanmBrandonSeenText:
-	text "I just got my"
-	line "#MON back from"
-	cont "DAY-CARE."
+	text "Tôi vừa nhận lại"
+	line "#MON từ NHÀ"
+	cont "GIỮ TRẺ."
 
-	para "Let's see how much"
-	line "stronger it got!"
+	para "Xem nó mạnh thêm"
+	line "bao nhiêu nào!"
 	done
 
 PokefanmBrandonBeatenText:
@@ -638,12 +638,12 @@ PokefanmBrandonBeatenText:
 	done
 
 PokefanmBrandonAfterText:
-	text "My #MON knew"
-	line "moves I didn't"
-	cont "know it had."
+	text "#MON tôi biết"
+	line "chiêu tôi không"
+	cont "biết nó có."
 
-	para "That confounded me"
-	line "to no end!"
+	para "Tôi hoang mang"
+	line "quá đi!"
 	done
 
 CooltrainerfIreneSeenText:
@@ -752,10 +752,10 @@ Route34TrainerTipsText:
 	done
 
 DayCareSignText:
-	text "DAY-CARE"
+	text "NHÀ GIỮ TRẺ"
 
-	para "LET US RAISE YOUR"
-	line "#MON FOR YOU!"
+	para "CHÚNG TÔI NUÔI"
+	line "#MON CHO BẠN!"
 	done
 
 Route34_MapEvents:

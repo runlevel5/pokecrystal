@@ -59,7 +59,7 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR có thể lưu"
+	text "#GEAR lưu được"
 	line "tới mười số điện"
 	cont "thoại."
 
