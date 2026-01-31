@@ -737,13 +737,13 @@ IlexForestPlayerStepsDownMovement:
 
 IlexForestApprenticeIntroText:
 	text "Ôi trời… Sếp tôi"
-	line "sẽ nổi điên mất…"
+	line "sẽ điên mất…"
 
 	para "Con FARFETCH'D"
 	line "dùng CUT cây để"
 
 	para "làm than đã bỏ"
-	line "chạy khỏi tôi rồi"
+	line "chạy mất rồi."
 
 	para "Tôi không thể đi"
 	line "tìm nó trong RỪNG"

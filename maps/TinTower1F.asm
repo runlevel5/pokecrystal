@@ -308,7 +308,7 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Tuyệt vời!"
+	text "EUSINE: Tuyệt vời"
 	line "Quá tuyệt vời!"
 
 	para "Tôi chưa bao giờ"
@@ -317,7 +317,7 @@ TinTower1FEusineSuicuneText:
 	para "tuyệt như thế."
 	line "Thật cảm hứng."
 
-	para "SUICUNE thật mạnh,"
+	para "SUICUNE thật mạnh"
 	line "nhưng cậu còn"
 
 	para "ấn tượng hơn,"
@@ -332,7 +332,7 @@ TinTower1FEusineSuicuneText:
 	para "#MON có màu"
 	line "cầu vồng."
 
-	para "Có lẽ, chỉ có lẽ,"
+	para "Có lẽ, chỉ có lẽ"
 	line "chuyện hôm nay"
 
 	para "sẽ làm #MON đó"
@@ -341,8 +341,8 @@ TinTower1FEusineSuicuneText:
 	para "Tôi sẽ nghiên cứu"
 	line "truyền thuyết."
 
-	para "Cảm ơn cậu đã cho"
-	line "tôi xem trận đấu"
+	para "Cảm ơn đã cho tôi"
+	line "xem trận đấu"
 	cont "tuyệt vời."
 
 	para "Tạm biệt,"
@@ -370,11 +370,11 @@ TinTower1FSage1Text:
 	done
 
 TinTower1FSage2Text:
-	text "Khi THÁP ĐỒNG bị"
-	line "cháy, người ta"
+	text "Khi THÁP CHÁY bị"
+	line "thiêu rụi, ba"
 
-	para "nói có ba #MON"
-	line "vô danh đã chết."
+	para "#MON vô danh"
+	line "đã chết."
 
 	para "Thật bi thương."
 
@@ -401,14 +401,12 @@ TinTower1FSage2Text:
 	done
 
 TinTower1FSage3Text:
-	text "Người ta nói hai"
-	line "THÁP được xây"
+	text "Hai THÁP được xây"
+	line "để nuôi dưỡng"
 
-	para "để nuôi dưỡng"
-	line "tình bạn và hy"
-
-	para "vọng giữa #MON"
-	line "và con người."
+	para "tình bạn và hy"
+	line "vọng giữa #MON"
+	cont "và con người."
 
 	para "Đó là 700 năm"
 	line "trước, nhưng lý"
@@ -418,15 +416,16 @@ TinTower1FSage3Text:
 	done
 
 TinTower1FSage4Text1:
-	text "HO-OH dường như đã"
-	line "giáng xuống đây,"
+	text "HO-OH dường như"
+	line "đã giáng xuống"
 
-	para "THÁP THIẾC này!"
+	para "đây, THÁP THIẾC"
+	line "này!"
 	done
 
 TinTower1FSage5Text1:
-	text "Vật này sẽ bảo vệ"
-	line "con. Hãy cầm lấy."
+	text "Vật này sẽ bảo"
+	line "vệ con. Hãy cầm."
 	done
 
 TinTower1FSage5Text2:
@@ -434,12 +433,12 @@ TinTower1FSage5Text2:
 	done
 
 TinTower1FSage6Text1:
-	text "Ta tin con đang bị"
-	line "thử thách."
+	text "Ta tin con đang"
+	line "bị thử thách."
 
 	para "Hãy giải phóng"
 	line "tâm trí khỏi sự"
-	cont "nghi ngờ và tiến."
+	cont "nghi ngờ và tiến"
 	done
 
 TinTower1FEusineHoOhText:
@@ -468,11 +467,11 @@ TinTower1FEusineHoOhText:
 	done
 
 TinTower1FSage4Text2:
-	text "Người ta nói các"
-	line "#MON tr.thuyết"
+	text "Các #MON huyền"
+	line "thoại là hiện"
 
-	para "là hiện thân của"
-	line "ba sức mạnh…"
+	para "thân của ba sức"
+	line "mạnh…"
 
 	para "Tia sét đánh vào"
 	line "THÁP."
@@ -488,9 +487,9 @@ TinTower1FSage5Text3:
 	text "Khi #MON huyền"
 	line "thoại xuất hiện…"
 
-	para "Chúng khiến những"
-	line "ai chứng kiến sự"
-	cont "trỗi dậy khiếp sợ."
+	para "Chúng khiến ai"
+	line "chứng kiến sự"
+	cont "trỗi dậy khiếp sợ"
 
 	para "Và…"
 
@@ -498,8 +497,8 @@ TinTower1FSage5Text3:
 	line "đã tấn công chúng"
 	cont "một cách vô ích."
 
-	para "Các #MON tr."
-	line "thuyết, biết sức"
+	para "Các #MON huyền"
+	line "thoại, biết sức"
 
 	para "mạnh mình, đã bỏ"
 	line "chạy, bỏ mặc"
@@ -511,7 +510,7 @@ TinTower1FSage6Text2:
 	line "huyền thoại,"
 
 	para "SUICUNE được cho"
-	line "là gần HO-OH nhất."
+	line "là gần HO-OH nhất"
 
 	para "Tôi nghe nói có"
 	line "thể có mối liên"

@@ -194,42 +194,42 @@ BurnedTowerB1FEusineText:
 	text "EUSINE: Tôi đào"
 	line "một lỗ ở đây…"
 
-	para "Tôi đã bị sốc!"
+	para "Tôi bị sốc!"
 
 	para "SUICUNE lướt qua"
-	line "như một cơn gió,"
+	line "như cơn gió,"
 
 	para "ngay trước mắt"
 	line "tôi!"
 
-	para "Suốt mười năm tôi"
-	line "đuổi theo SUICUNE,"
+	para "Suốt 10 năm tôi"
+	line "theo SUICUNE,"
 
-	para "và cuối cùng tôi"
-	line "được thấy nó."
+	para "cuối cùng được"
+	line "thấy nó."
 
-	para "Tôi xúc động quá!"
+	para "Tôi xúc động!"
 
 	para "<PLAYER>, tôi nợ"
-	line "bạn tất cả!"
+	line "bạn nhiều lắm!"
 
 	para "Cảm ơn bạn!"
 
 	para "Tôi nghe nói các"
 	line "#MON huyền"
 
-	para "thoại của ECRUTEAK"
-	line "thử thách con"
+	para "thoại ECRUTEAK"
+	line "thử thách người"
 
-	para "người được chọn"
-	line "bằng cách cho họ"
+	para "được chọn bằng"
+	line "cách cho họ"
 	cont "đến gần."
 
 	para "Tôi sẽ theo dấu"
 	line "SUICUNE."
 
-	para "<PLAYER>, hẹn gặp"
-	line "lại bạn!"
+	para "<PLAYER>, hẹn"
+	line "gặp lại bạn!"
 
 	para "Tạm biệt!"
 	done
