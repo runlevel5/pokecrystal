@@ -103,10 +103,10 @@ Text_Gained::
 _BoostedExpPointsText::
 ; BUG: Five-digit experience gain is printed incorrectly (see docs/bugs_and_glitches.md)
 	text_start
-	line "thêm"
-	cont "@"
+	line "thêm @"
 	text_decimal wStringBuffer2, 2, 4
-	text " điểm K.NGHIỆM!"
+	cont "điểm kinh"
+	cont "nghiệm!"
 	prompt
 
 _ExpPointsText::
@@ -114,7 +114,8 @@ _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 4
-	text " điểm K.NGHIỆM!"
+	cont "điểm kinh"
+	cont "nghiệm!"
 	prompt
 
 _GoMonText::
