@@ -1,4 +1,4 @@
-	db "CHUỘT LỬA@" ; species name
+	db "NHÍM LỬA@" ; species name
 	dw 5, 79 ; height, weight
 
 	db   "Lửa phun ra từ"

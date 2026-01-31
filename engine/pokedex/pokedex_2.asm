@@ -99,13 +99,26 @@ DisplayDexEntry:
 	ld de, wTempSpecies
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
-; Check to see if we caught it.  Get out of here if we haven't.
+; Check to see if we caught it.
 	ld a, [wTempSpecies]
 	dec a
 	call CheckCaughtMon
 	pop hl
 	pop bc
-	ret z
+	jr nz, .caught
+; Not caught - display ?.? for height and weight
+	ld a, '?'
+	hlcoord 14, 7  ; height: X.X format, position before dot
+	ld [hli], a
+	inc hl ; skip the dot at position 15
+	ld [hl], a    ; position after dot
+	hlcoord 13, 9  ; weight: XXX.X format (shifted 1 tile right)
+	ld [hli], a
+	ld [hli], a
+	inc hl ; skip the dot at position 15
+	ld [hl], a
+	ret
+.caught
 ; Get the height of the Pokemon.
 	ld a, [wCurPartySpecies]
 	ld [wCurSpecies], a
