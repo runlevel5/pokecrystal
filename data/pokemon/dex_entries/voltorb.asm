@@ -1,10 +1,10 @@
-	db "BALL@" ; species name
+	db "QUẢ CẦU@" ; species name
 	dw 108, 230 ; height, weight
 
-	db   "During the study"
-	next "of this #MON,"
-	next "it was discovered"
+	db   "Khi nghiên cứu"
+	next "#MON này, người"
+	next "ta phát hiện"
 
-	page "that its compo-"
-	next "nents are not"
-	next "found in nature.@"
+	page "thành phần của"
+	next "nó không có"
+	next "trong tự nhiên.@"

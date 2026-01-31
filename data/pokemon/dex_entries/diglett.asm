@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
+	db "CHUỘT CHŨI@" ; species name
 	dw 8, 20 ; height, weight
 
-	db   "It digs under-"
-	next "ground and chews"
-	next "on tree roots,"
+	db   "Nó đào dưới lòng"
+	next "đất và gặm rễ"
+	next "cây, chỉ ló đầu"
 
-	page "sticking its head"
-	next "out only when the"
-	next "sun isn't bright.@"
+	page "ra khi mặt trời"
+	next "không sáng.@"
+	next "@"

@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
+	db "NÒN NOC@" ; species name
 	dw 303, 440 ; height, weight
 
-	db   "Though it is"
-	next "skilled at walk-"
-	next "ing, it prefers to"
+	db   "Dù giỏi đi bộ, nó"
+	next "thích sống dưới"
+	next "nước hơn vì ít"
 
-	page "live underwater"
-	next "where there is"
-	next "less danger.@"
+	page "nguy hiểm hơn.@"
+	next "@"
+	next "@"
