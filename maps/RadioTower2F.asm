@@ -473,8 +473,8 @@ RadioTower2FBuenaShowIntroductionText:
 	line "là BUENA!"
 
 	para "Bạn có biết về"
-	line "chương trình radio"
-	cont "tên PASSWORD không?"
+	line "c.trình radio tên"
+	cont "PASSWORD không?"
 
 	para "Nếu bạn nói đúng"
 	line "mật khẩu từ"
@@ -624,12 +624,12 @@ RadioTower2FBuenaOfferPhoneNumberText:
 	text "BUENA: Ồ! THẺ"
 	line "XANH của bạn đạt"
 
-	para "{d:BLUE_CARD_POINT_CAP} điểm hôm nay!"
+	para "30 điểm hôm nay!"
 	line "Thật tuyệt vời!"
 
 	para "Hmm… Không có giải"
-	line "cho việc đạt {d:BLUE_CARD_POINT_CAP}"
-	cont "điểm, nhưng…"
+	line "cho 30 điểm,"
+	cont "nhưng…"
 
 	para "Bạn ghé thường"
 	line "xuyên, <PLAY_G>."
@@ -650,7 +650,7 @@ RadioTower2FBuenaOfferNumberAgainText:
 	done
 
 RadioTower2FRegisteredBuenasNumberText:
-	text "<PLAYER> đã đăng ký"
+	text "<PLAYER> đăng ký"
 	line "số của BUENA."
 	done
 

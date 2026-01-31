@@ -382,27 +382,27 @@ TwinsLeaandpia2SeenText:
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Ác quá."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
+	text "Bọn mình sẽ mách."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "BẬC THẦY sẽ giận"
+	line "bạn đấy."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER> tìm thấy"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Nhưng <PLAYER>"
+	line "không mang thêm"
+	cont "đồ được."
 	done
 
 DragonsDenB1F_MapEvents:
