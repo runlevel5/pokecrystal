@@ -112,7 +112,7 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "Tôi là FALKNER,"
-	line "GYM LEADER #MON"
+	line "T.LĨNH GYM #MON"
 	cont "TP VIOLET!"
 
 	para "Người ta nói có"

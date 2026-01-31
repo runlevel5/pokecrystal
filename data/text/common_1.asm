@@ -959,7 +959,7 @@ _RocketRadioText1::
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "ĐỘI ROCKET!"
 	done
 
 _RocketRadioText3::

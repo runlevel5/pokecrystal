@@ -394,7 +394,7 @@ SailorKennethAfterBattleText:
 	line "They must prove"
 
 	para "that you've beaten"
-	line "GYM LEADERS."
+	line "T.LĨNH GYMS."
 
 	para "No wonder you're"
 	line "so good!"

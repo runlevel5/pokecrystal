@@ -391,7 +391,7 @@ ExecutiveM4BeforeText:
 	line "GIOVANNI."
 
 	para "Since disbanding"
-	line "TEAM ROCKET three"
+	line "ĐỘI ROCKET three"
 
 	para "years ago, he has"
 	line "been in training."
@@ -497,7 +497,7 @@ ScientistRossSeenText:
 	line "SILPH, but now I"
 
 	para "run research for"
-	line "TEAM ROCKET."
+	line "ĐỘI ROCKET."
 
 	para "A meddlesome child"
 	line "like you needs to"

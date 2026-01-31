@@ -81,7 +81,7 @@ BrockIntroText:
 	line "from JOHTO."
 
 	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	line "PEWTER T.LĨNH GYM."
 
 	para "I'm an expert on"
 	line "rock-type #MON."
@@ -182,14 +182,14 @@ PewterGymGuideText:
 	para "really rocking."
 	line "Are you battling"
 
-	para "the GYM LEADERS of"
+	para "the T.LĨNH GYMS of"
 	line "KANTO?"
 
 	para "They're strong and"
 	line "dedicated people,"
 
 	para "just like JOHTO's"
-	line "GYM LEADERS."
+	line "T.LĨNH GYMS."
 	done
 
 PewterGymGuideWinText:

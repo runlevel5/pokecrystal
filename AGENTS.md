@@ -88,31 +88,54 @@ All Pokemon species names remain in English:
 
 #### 6. Special Terms
 - Badge names: ZEPHYRBADGE, HIVEBADGE, etc.
-- Game-specific terms: GYM, GYM LEADER, TEAM ROCKET
+- Game-specific terms: GYM (kept as GYM)
 
-#### 7. Location Names
-All location names remain in English. Complete list:
+### Terms Translated to Vietnamese
 
-**Johto Cities & Towns:**
-NEW BARK TOWN, CHERRYGROVE CITY, VIOLET CITY, AZALEA TOWN, GOLDENROD CITY, ECRUTEAK CITY, OLIVINE CITY, CIANWOOD CITY, MAHOGANY TOWN, BLACKTHORN CITY
+#### 1. Team/Organization Names
+| English | Vietnamese |
+|---------|------------|
+| TEAM ROCKET | ĐỘI ROCKET |
+| GYM LEADER | T.LĨNH GYM |
 
-**Johto Landmarks:**
-SPROUT TOWER, RUINS OF ALPH, UNION CAVE, SLOWPOKE WELL, ILEX FOREST, RADIO TOWER, NATIONAL PARK, TIN TOWER, BURNED TOWER, LIGHTHOUSE, BATTLE TOWER, WHIRL ISLANDS, MT.MORTAR, LAKE OF RAGE, ICE PATH, DRAGON'S DEN, DARK CAVE, SILVER CAVE
+#### 2. Location Names
+Location names are now translated with Vietnamese prefixes:
 
-**Johto Routes:**
-ROUTE 29, ROUTE 30, ROUTE 31, ROUTE 32, ROUTE 33, ROUTE 34, ROUTE 35, ROUTE 36, ROUTE 37, ROUTE 38, ROUTE 39, ROUTE 40, ROUTE 41, ROUTE 42, ROUTE 43, ROUTE 44, ROUTE 45, ROUTE 46
+**Cities & Towns:**
+| English Pattern | Vietnamese Pattern | Example |
+|-----------------|-------------------|---------|
+| <NAME> CITY | TP. <NAME> | VIOLET CITY → TP. VIOLET |
+| <NAME> TOWN | TRẤN <NAME> | AZALEA TOWN → TRẤN AZALEA |
 
-**Kanto Cities & Towns:**
-PALLET TOWN, VIRIDIAN CITY, PEWTER CITY, CERULEAN CITY, VERMILION CITY, LAVENDER TOWN, CELADON CITY, SAFFRON CITY, FUCHSIA CITY, CINNABAR ISLAND
+**Landmarks:**
+| English | Vietnamese |
+|---------|------------|
+| <NAME> TOWER | THÁP <NAME> |
+| <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
+| <NAME> FOREST | RỪNG <NAME> |
+| RUINS OF ALPH | TÀN TÍCH ALPH |
+| LAKE OF RAGE | HỒ RAGE |
+| NATIONAL PARK | CV. QUỐC GIA |
+| SLOWPOKE WELL | GIẾNG SLOWPOKE |
+| LIGHTHOUSE | HẢI ĐĂNG |
+| WHIRL ISLANDS | Q.ĐẢO WHIRL |
+| MT.MORTAR | NÚI MORTAR |
+| DRAGON'S DEN | HANG RỒNG |
+| ICE PATH | LỐI BĂNG |
+| SILVER CAVE | HANG BẠC |
+| DARK CAVE | HANG TỐI |
+| POWER PLANT | NHÀ MÁY ĐIỆN |
+| UNDERGROUND | HẦM NGẦM |
+| BATTLE TOWER | THÁP ĐẤU |
+| FAST SHIP | TÀU NHANH |
+| VICTORY ROAD | ĐƯỜNG C.THẮNG |
+| INDIGO PLATEAU | CAO NGUYÊN INDIGO |
+| <NAME> ISLAND | ĐẢO <NAME> |
 
-**Kanto Landmarks:**
-MT.MOON, ROCK TUNNEL, POWER PLANT, DIGLETT'S CAVE, SEAFOAM ISLANDS, VICTORY ROAD, INDIGO PLATEAU, TOHJO FALLS, UNDERGROUND, LAV RADIO TOWER
-
-**Kanto Routes:**
-ROUTE 1, ROUTE 2, ROUTE 3, ROUTE 4, ROUTE 5, ROUTE 6, ROUTE 7, ROUTE 8, ROUTE 9, ROUTE 10, ROUTE 11, ROUTE 12, ROUTE 13, ROUTE 14, ROUTE 15, ROUTE 16, ROUTE 17, ROUTE 18, ROUTE 19, ROUTE 20, ROUTE 21, ROUTE 22, ROUTE 23, ROUTE 24, ROUTE 25, ROUTE 26, ROUTE 27, ROUTE 28
-
-**Other:**
-FAST SHIP
+**Routes:**
+| English | Vietnamese |
+|---------|------------|
+| ROUTE <N> | ĐƯỜNG <N> |
 
 ### Rationale
 
@@ -132,10 +155,14 @@ FAST SHIP
 | POKEMON CENTER | TT POKEMON | Trung Tâm (Center) |
 | TRAINER | HLV | Huấn Luyện Viên |
 | ROUTE | ĐƯỜNG | Road/Route |
-| CITY | TP | Thành Phố |
+| CITY | TP. | Thành Phố |
+| TOWN | TRẤN | Town/Township |
+| GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |
+| TEAM ROCKET | ĐỘI ROCKET | Team/Squad |
+| NATIONAL PARK | CV. QUỐC GIA | Công Viên (Park) |
+| ISLANDS | Q.ĐẢO | Quần Đảo (Archipelago) |
+| VICTORY | C.THẮNG | Chiến Thắng (Victory) |
 | ELDER | TRƯỞNG LÃO | Elder/Senior |
-| SPROUT TOWER | THÁP MẦM | Sprout Tower |
-| DARK CAVE | HANG TỐI | Dark Cave |
 
 ## Character Name Translations
 

@@ -167,13 +167,13 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	next "chương trình radio"
 
 	para "Họ đang nói về"
-	line "TEAM ROCKET."
+	line "ĐỘI ROCKET."
 
 	para "<PLAY_G>, con có"
 	line "biết gì về chuyện"
 	cont "này không?"
 
-	para "Có lẽ TEAM ROCKET"
+	para "Có lẽ ĐỘI ROCKET"
 	line "đã quay lại."
 
 	para "Không, điều đó"

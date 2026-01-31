@@ -352,7 +352,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	line "Question 4:"
 
 	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	line "VIOLET T.LĨNH GYM"
 
 	para "who uses bird"
 	line "#MON?"
@@ -429,7 +429,7 @@ GruntM3SeenText:
 	line "get to experience"
 
 	para "the true terror of"
-	line "TEAM ROCKET!"
+	line "ĐỘI ROCKET!"
 
 	para "We'll show you"
 	line "how scary we are!"

@@ -276,7 +276,7 @@ CooltrainermJakeAfterBattleText:
 	line "LEAGUE's ELITE"
 
 	para "FOUR are tougher"
-	line "than GYM LEADERS."
+	line "than T.LĨNH GYMS."
 	done
 
 CooltrainermGaven3SeenText:
@@ -321,7 +321,7 @@ CooltrainerfJoyceBeatenText:
 
 CooltrainerfJoyceAfterBattleText:
 	text "I've defeated"
-	line "eight GYM LEADERS,"
+	line "eight T.LĨNH GYMS,"
 
 	para "so I was feeling"
 	line "confident."

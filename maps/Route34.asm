@@ -532,7 +532,7 @@ YoungsterSamuelAfterText:
 
 	para "After all, I'm"
 	line "trying to become"
-	cont "a GYM LEADER."
+	cont "a T.LĨNH GYM."
 	done
 
 YoungsterIanSeenText:

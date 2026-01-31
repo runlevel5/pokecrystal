@@ -303,7 +303,7 @@ BoarderDouglasAfterBattleText:
 
 SkierRoxanneSeenText:
 	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	line "our T.LĨNH GYM,"
 
 	para "you need to think"
 	line "before you skate."

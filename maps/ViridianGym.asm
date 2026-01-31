@@ -144,7 +144,7 @@ ViridianGymGuideText:
 	line "Looks like you're"
 	cont "on a roll."
 
-	para "The GYM LEADER is"
+	para "The T.LĨNH GYM is"
 	line "a guy who battled"
 
 	para "the CHAMPION three"

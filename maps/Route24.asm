@@ -36,7 +36,7 @@ Route24RocketScript:
 
 Route24RocketSeenText:
 	text "Hey, kid! Me am a"
-	line "TEAM ROCKET member"
+	line "ĐỘI ROCKET member"
 	cont "kind of guy!"
 
 	para "Come from another"
@@ -93,7 +93,7 @@ Route24RocketAfterBattleText:
 	line "not!"
 
 	para "Beat you for sure"
-	line "will TEAM ROCKET."
+	line "will ĐỘI ROCKET."
 
 	para "Come from JOHTO"
 	line "will they, mine"

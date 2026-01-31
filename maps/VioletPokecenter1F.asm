@@ -188,7 +188,7 @@ VioletPokecenter1FGentlemanText:
 	text "Khoảng ba năm"
 	line "trước."
 
-	para "TEAM ROCKET làm"
+	para "ĐỘI ROCKET làm"
 	line "chuyện xấu với"
 	cont "#MON."
 

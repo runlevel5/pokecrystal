@@ -181,7 +181,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	text "Xin chào!"
 	line "Bạn là HLV à?"
 
-	para "Đánh GYM LEADER,"
+	para "Đánh T.LĨNH GYM,"
 	line "thắng rồi chứ?"
 	done
 
@@ -219,7 +219,7 @@ VioletCitySuperNerdText:
 	line "HLV #MON à?"
 
 	para "Nếu bạn thắng"
-	line "GYM LEADER ở đây,"
+	line "T.LĨNH GYM ở đây,"
 
 	para "bạn sẽ sẵn sàng"
 	line "cho đấu trường!"

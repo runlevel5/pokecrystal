@@ -177,7 +177,7 @@ OlivineCityRivalText:
 	line "yếu như mày."
 
 	para "Nói về kẻ yếu,"
-	line "GYM LEADER thành"
+	line "T.LĨNH GYM thành"
 
 	para "phố này không có"
 	line "ở đây."

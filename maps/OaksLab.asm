@@ -150,7 +150,7 @@ OakNoKantoBadgesText:
 	line "not collecting"
 	cont "KANTO GYM BADGES?"
 
-	para "The GYM LEADERS in"
+	para "The T.LĨNH GYMS in"
 	line "KANTO are as tough"
 
 	para "as any you battled"

@@ -21,7 +21,7 @@ ViridianMartCooltrainerMScript:
 	jumptextfaceplayer ViridianMartCooltrainerMText
 
 ViridianMartLassText:
-	text "The GYM LEADER"
+	text "The T.LĨNH GYM"
 	line "here is totally"
 	cont "cool."
 	done

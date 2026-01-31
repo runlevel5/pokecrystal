@@ -464,7 +464,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "worry. I'll tell"
 	line "you anyhow."
 
-	para "TEAM ROCKET's an"
+	para "ĐỘI ROCKET's an"
 	line "evil gang that"
 
 	para "uses #MON for"

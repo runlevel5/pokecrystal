@@ -53,7 +53,7 @@ SailorKentAfterBattleText:
 
 LassConnie1SeenText:
 	text "JASMINE is this"
-	line "city's GYM LEADER."
+	line "city's T.LĨNH GYM."
 
 	para "I mean to bring"
 	line "her back with me."

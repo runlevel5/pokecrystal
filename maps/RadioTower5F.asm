@@ -261,7 +261,7 @@ Executivef1AfterBattleText:
 	line "won't appreciate"
 
 	para "the magnificence"
-	line "of TEAM ROCKET."
+	line "of ĐỘI ROCKET."
 
 	para "That's too bad."
 	line "I really admire"

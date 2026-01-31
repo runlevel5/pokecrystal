@@ -109,7 +109,7 @@ GruntM24BeatenText:
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
+	text "ĐỘI ROCKET will"
 	line "keep going, wait-"
 	cont "ing for the return"
 	cont "of GIOVANNI."

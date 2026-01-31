@@ -259,7 +259,7 @@ BurnedTower1FEusineText:
 
 BurnedTower1FMortyText:
 	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	line "T.LĨNH GYM has to"
 
 	para "study what are"
 	line "said to be the"

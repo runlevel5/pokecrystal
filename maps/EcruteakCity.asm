@@ -206,7 +206,7 @@ EcruteakCityGramps3Text:
 	line "thuyết được lưu"
 
 	para "truyền bởi các"
-	line "GYM LEADER ECRU-"
+	line "T.LĨNH GYM ECRU-"
 	cont "TEAK."
 
 	para "Tôi à?"

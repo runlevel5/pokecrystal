@@ -61,12 +61,12 @@ ViridianPokecenter1FCooltrainerFText:
 
 	para "I wonder what be-"
 	line "came of BLAINE,"
-	cont "the GYM LEADER."
+	cont "the T.LĨNH GYM."
 	done
 
 ViridianPokecenter1FBugCatcherText:
 	text "My dream is to be-"
-	line "come a GYM LEADER."
+	line "come a T.LĨNH GYM."
 	done
 
 ViridianPokecenter1F_MapEvents:

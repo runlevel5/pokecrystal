@@ -165,7 +165,7 @@ ClairIntroText:
 	para "…Fine."
 	line "Let's do it!"
 
-	para "As a GYM LEADER,"
+	para "As a T.LĨNH GYM,"
 	line "I will use my full"
 
 	para "power against any"

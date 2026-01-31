@@ -301,7 +301,7 @@ GoldenrodCityCooltrainerF1Text:
 	text "Người đàn ông mặc"
 	line "đồ đen kia đang"
 
-	para "giả TEAM ROCKET à?"
+	para "giả ĐỘI ROCKET à?"
 	line "Thật buồn cười"
 	done
 
@@ -309,7 +309,7 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 	text "Người đàn ông mặc"
 	line "đồ đen kia thật"
 
-	para "sự là TEAM ROCKET"
+	para "sự là ĐỘI ROCKET"
 	line "à? Khó tin quá!"
 	done
 
@@ -408,7 +408,7 @@ GoldenrodCityRocket5Text:
 GoldenrodCityRocket6Text:
 	text "Đến mà nếm thử"
 	line "nỗi kinh hoàng"
-	cont "của TEAM ROCKET!"
+	cont "của ĐỘI ROCKET!"
 	done
 
 GoldenrodCityStationSignText:

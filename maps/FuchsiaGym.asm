@@ -289,7 +289,7 @@ LassAliceBeforeText:
 	text "Fufufu!"
 
 	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	line "T.LĨNH GYM!"
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"

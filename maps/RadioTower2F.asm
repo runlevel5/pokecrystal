@@ -390,7 +390,7 @@ RadioTower2FBlackBelt2Text:
 
 GruntM4SeenText:
 	text "Three years ago,"
-	line "TEAM ROCKET was"
+	line "ĐỘI ROCKET was"
 	cont "forced to disband."
 
 	para "But we're making a"
@@ -409,7 +409,7 @@ GruntM4AfterBattleText:
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
+	text "We're ĐỘI ROCKET,"
 	line "the exploiters of"
 	cont "#MON!"
 

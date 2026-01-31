@@ -247,7 +247,7 @@ AzaleaTownRivalBeforeText:
 	text "…Nói tao nghe"
 	line "chút."
 
-	para "TEAM ROCKET quay"
+	para "ĐỘI ROCKET quay"
 	line "lại thật à?"
 
 	para "Gì? Mày đánh bại"
@@ -281,7 +281,7 @@ AzaleaTownRivalAfterText:
 	line "quét sạch bọn"
 	cont "yếu đuối."
 
-	para "TEAM ROCKET cũng"
+	para "ĐỘI ROCKET cũng"
 	line "vậy."
 
 	para "Chúng ra vẻ ngầu"

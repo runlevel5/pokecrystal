@@ -58,7 +58,7 @@ SailorErnestBeatenText:
 	done
 
 SailorErnestAfterBattleText:
-	text "A GYM LEADER isn't"
+	text "A T.LĨNH GYM isn't"
 	line "just about being"
 
 	para "strong. A LEADER"

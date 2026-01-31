@@ -77,7 +77,7 @@ CianwoodGymGuideText:
 	line "them correctly,"
 
 	para "you won't reach"
-	line "the GYM LEADER."
+	line "the T.LĨNH GYM."
 
 	para "If you get stuck,"
 	line "go outside."

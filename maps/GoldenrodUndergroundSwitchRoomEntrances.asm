@@ -874,7 +874,7 @@ GruntM13BeatenText:
 GruntM13AfterBattleText:
 	text "You must have ice"
 	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	cont "dis ĐỘI ROCKET."
 	done
 
 SwitchRoomText_Switch1:
