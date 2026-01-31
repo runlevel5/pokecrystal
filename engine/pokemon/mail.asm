@@ -564,4 +564,4 @@ MailboxPC:
 	db "READ MAIL@"
 	db "PUT IN PACK@"
 	db "ATTACH MAIL@"
-	db "CANCEL@"
+	db "HUỶ@"

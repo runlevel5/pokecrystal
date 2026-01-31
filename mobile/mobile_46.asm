@@ -3877,17 +3877,17 @@ Strings_L10ToL100:
 	db " L:80 @@"
 	db " L:90 @@"
 	db " L:100@@"
-	db "CANCEL@@"
+	db "HUỶ@@"
 
 Strings_Ll0ToL40:
 	db " L:10 @@"
 	db " L:20 @@"
 	db " L:30 @@"
 	db " L:40 @@"
-	db "CANCEL@@"
+	db "HUỶ@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "CANCEL@"
+	db "HUỶ@"
 
 BattleTower_LevelCheck:
 	ldh a, [rWBK]

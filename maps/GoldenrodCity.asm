@@ -104,7 +104,7 @@ MoveTutorScript:
 	db "FLAMETHROWER@"
 	db "THUNDERBOLT@"
 	db "ICE BEAM@"
-	db "CANCEL@"
+	db "HUỶ@"
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText

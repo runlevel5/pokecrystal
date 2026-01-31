@@ -1248,9 +1248,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "GỌI"
+	next "XOÁ"
+	next "HUỶ"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1261,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "GỌI"
+	next "HUỶ"
 	db   "@"
 
 .CallCancelJumptable:

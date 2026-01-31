@@ -1255,7 +1255,7 @@ endr
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "HUỶ@"
 
 .PlaceNickname:
 	ld a, [de]

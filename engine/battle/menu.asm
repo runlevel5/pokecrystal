@@ -87,10 +87,10 @@ ContestBattleMenuHeader:
 	dba .PrintParkBallsRemaining
 
 .Text:
-	db "FIGHT@"
+	db "ĐÁNH@"
 	db "<PKMN>@"
 	db "PARKBALL×  @"
-	db "RUN@"
+	db "CHẠY@"
 
 .PrintParkBallsRemaining:
 	hlcoord 13, 16

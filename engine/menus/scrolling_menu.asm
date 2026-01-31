@@ -406,7 +406,7 @@ ScrollingMenu_UpdateDisplay:
 	ret
 
 .CancelString
-	db "CANCEL@"
+	db "HUỶ@"
 
 .call_function
 	ld d, h

@@ -5706,9 +5706,9 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "Bị khoá!@"
 .Type:
-	db "TYPE/@"
+	db "HỆ/@"
 
 .PrintPP:
 	hlcoord 5, 11
