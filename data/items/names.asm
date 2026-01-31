@@ -6,7 +6,7 @@ ItemNames::
 	li "GREAT BALL"
 	li "# BALL"
 	li "TERU-SAMA"
-	li "BICYCLE"
+	li "XE ĐẠP"
 	li "MOON STONE"
 	li "GIẢI ĐỘC"
 	li "BURN HEAL"
