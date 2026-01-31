@@ -170,7 +170,7 @@ JasmineCianwoodPharmacyText:
 	line "ốm… Nó thở"
 	cont "hổn hển…"
 
-	para "…Tôi biết rằng có"
+	para "…Ta biết rằng có"
 	line "một NHÀ THUỐC tốt"
 
 	para "ở CIANWOOD…"
@@ -178,14 +178,14 @@ JasmineCianwoodPharmacyText:
 	para "Nhưng đó là bên"
 	line "kia biển…"
 
-	para "Và tôi không thể"
+	para "Và ta không thể"
 	line "bỏ AMPHY một mình…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…Tôi có thể nhờ"
-	line "bạn lấy thuốc cho"
-	cont "tôi không? Làm ơn?"
+	text "…Ta có thể nhờ"
+	line "con lấy thuốc cho"
+	cont "ta không? Làm ơn?"
 	done
 
 JasmineCureAmphyText:
@@ -206,7 +206,7 @@ JasmineDontBeOffendedText:
 
 	para "…AMPHY sẽ không"
 	line "nhận thứ gì từ ai"
-	cont "ngoài tôi…"
+	cont "ngoài ta…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
@@ -217,16 +217,16 @@ JasmineAmphyHowAreYouFeelingText:
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Ôi, tôi"
+	text "JASMINE: …Ôi, ta"
 	line "thật nhẹ nhõm…"
 
 	para "Thật là tuyệt vời"
 	line "…"
 
-	para "Cảm ơn bạn rất"
+	para "Cảm ơn con rất"
 	line "rất nhiều."
 
-	para "…Tôi sẽ quay về"
+	para "…Ta sẽ quay về"
 	line "GYM…"
 	done
 
