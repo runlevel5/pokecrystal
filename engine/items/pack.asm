@@ -159,7 +159,7 @@ Pack:
 
 .MenuHeader1:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData_1
 	db 1 ; default option
 
@@ -175,7 +175,7 @@ Pack:
 
 .MenuHeader2:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData_2
 	db 1 ; default option
 
@@ -310,7 +310,7 @@ Pack:
 
 MenuHeader_UsableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 1, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 1, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -332,7 +332,7 @@ Jumptable_UseGiveTossRegisterQuit:
 
 MenuHeader_UsableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -352,7 +352,7 @@ Jumptable_UseGiveTossQuit:
 
 MenuHeader_UnusableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -368,7 +368,7 @@ Jumptable_UseQuit:
 
 MenuHeader_UnusableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -386,7 +386,7 @@ Jumptable_UseRegisterQuit:
 
 MenuHeader_HoldableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -406,7 +406,7 @@ Jumptable_GiveTossRegisterQuit:
 
 MenuHeader_HoldableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -807,7 +807,7 @@ TMHMSubmenu:
 
 .UsableMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .UsableMenuData
 	db 1 ; default option
 
@@ -823,7 +823,7 @@ TMHMSubmenu:
 
 .UnusableMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 13, 9, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 9, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .UnusableMenuData
 	db 1 ; default option
 
