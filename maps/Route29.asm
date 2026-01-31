@@ -397,14 +397,14 @@ Route29Sign1Text:
 	text "ĐƯỜNG 29"
 
 	para "TP. CHERRYGROVE -"
-	line "THÔN NEW BARK"
+	line "THỊ TRẤN NEW BARK"
 	done
 
 Route29Sign2Text:
 	text "ĐƯỜNG 29"
 
 	para "TP. CHERRYGROVE -"
-	line "THÔN NEW BARK"
+	line "THỊ TRẤN NEW BARK"
 	done
 
 Route29_MapEvents:

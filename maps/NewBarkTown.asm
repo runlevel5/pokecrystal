@@ -259,7 +259,7 @@ NewBarkTownRivalText2:
 	done
 
 NewBarkTownSignText:
-	text "THÔN NEW BARK"
+	text "THỊ TRẤN NEW BARK"
 
 	para "Thị trấn nơi gió"
 	line "của khởi đầu"

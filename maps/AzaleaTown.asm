@@ -400,7 +400,7 @@ AzaleaTownKurtText3:
 	done
 
 AzaleaTownSignText:
-	text "THÔN AZALEA"
+	text "THỊ TRẤN AZALEA"
 	line "Nơi con người và"
 
 	para "#MON sống hòa"
@@ -412,7 +412,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "THÔN AZALEA"
+	text "THỊ TRẤN AZALEA"
 	line "GYM #MON"
 	cont "LEADER: BUGSY"
 
