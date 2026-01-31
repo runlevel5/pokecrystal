@@ -105,7 +105,7 @@ Location names are translated with Vietnamese prefixes. Below is the complete li
 | English Pattern | Vietnamese Pattern |
 |-----------------|-------------------|
 | <NAME> CITY | TP. <NAME> or TP.<BSP><NAME> |
-| <NAME> TOWN | TRẤN <NAME> or TRẤN<BSP><NAME> |
+| <NAME> TOWN | THỊ TRẤN <NAME> or TRẤN<BSP><NAME> |
 | <NAME> TOWER | THÁP <NAME> or THÁP<BSP><NAME> |
 | <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
 | <NAME> FOREST | RỪNG <NAME> or RỪNG<BSP><NAME> |
@@ -117,24 +117,24 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 **Complete Location List (Johto Region):**
 | English | Vietnamese |
 |---------|------------|
-| NEW BARK TOWN | TRẤN NEW BARK |
+| NEW BARK TOWN | THỊ TRẤN<BSP>NEW BARK |
 | CHERRYGROVE CITY | TP.<BSP>CHERRYGROVE |
-| VIOLET CITY | TP. VIOLET |
-| AZALEA TOWN | TRẤN AZALEA |
+| VIOLET CITY | TP.<BSP>VIOLET |
+| AZALEA TOWN | THỊ TRẤN<BSP>AZALEA |
 | GOLDENROD CITY | TP.<BSP>GOLDENROD |
 | ECRUTEAK CITY | TP.<BSP>ECRUTEAK |
 | OLIVINE CITY | TP.<BSP>OLIVINE |
 | CIANWOOD CITY | TP.<BSP>CIANWOOD |
-| MAHOGANY TOWN | TRẤN<BSP>MAHOGANY |
+| MAHOGANY TOWN | THỊ TRẤN<BSP>MAHOGANY |
 | BLACKTHORN CITY | TP.<BSP>BLACKTHORN |
-| LAKE OF RAGE | HỒ RAGE |
+| LAKE OF RAGE | HỒ GYARADOS |
 | SILVER CAVE | HANG BẠC |
 | SPROUT TOWER | THÁP<BSP>SPROUT |
 | RUINS OF ALPH | TÀN TÍCH<BSP>ALPH |
 | UNION CAVE | ĐỘNG UNION |
 | SLOWPOKE WELL | GIẾNG<BSP>SLOWPOKE |
 | RADIO TOWER | THÁP RADIO |
-| NATIONAL PARK | CV.<BSP>QUỐC GIA |
+| NATIONAL PARK | VỪƠN<BSP>QUỐC GIA |
 | TIN TOWER | THÁP THIẾC |
 | BURNED TOWER | THÁP<BSP>CHÁY |
 | LIGHTHOUSE | HẢI ĐĂNG |
@@ -151,22 +151,22 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 **Complete Location List (Kanto Region):**
 | English | Vietnamese |
 |---------|------------|
-| PALLET TOWN | TRẤN PALLET |
+| PALLET TOWN | THỊ TRẤN<BSP>PALLET |
 | VIRIDIAN CITY | TP.<BSP>VIRIDIAN |
 | PEWTER CITY | TP.<BSP>PEWTER |
 | CERULEAN CITY | TP.<BSP>CERULEAN |
-| LAVENDER TOWN | TRẤN<BSP>LAVENDER |
+| LAVENDER TOWN | THỊ TRẤN<BSP>LAVENDER |
 | VERMILION CITY | TP.<BSP>VERMILION |
 | CELADON CITY | TP.<BSP>CELADON |
 | SAFFRON CITY | TP.<BSP>SAFFRON |
 | FUCHSIA CITY | TP.<BSP>FUCHSIA |
 | CINNABAR ISLAND | ĐẢO<BSP>CINNABAR |
 | INDIGO PLATEAU | CAO NGUYÊN<BSP>INDIGO |
-| VICTORY ROAD | ĐƯỜNG<BSP>C.THẮNG |
+| VICTORY ROAD | LỐI<BSP>VINH QUANG |
 | MT.MOON | NÚI MOON |
 | ROCK TUNNEL | ĐƯỜNG HẦM ĐÁ |
 | POWER PLANT | NHÀ MÁY ĐIỆN |
-| LAV RADIO TOWER | THÁP RADIO<BSP>LAV |
+| LAV RADIO TOWER | ĐÀI RADIO<BSP>LAVENDER |
 | SILPH CO. | SILPH CO. |
 | SAFARI ZONE | KHU SAFARI |
 | SEAFOAM ISLANDS | Q.ĐẢO<BSP>SEAFOAM |
@@ -210,7 +210,7 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 | TOWN | TRẤN | Town/Township |
 | GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |
 | TEAM ROCKET | ĐỘI ROCKET | Team/Squad |
-| NATIONAL PARK | CV. QUỐC GIA | Công Viên (Park) |
+| NATIONAL PARK | VƯỜN QUỐC GIA | Công Viên (Park) |
 | ISLANDS | Q.ĐẢO | Quần Đảo (Archipelago) |
 | VICTORY | C.THẮNG | Chiến Thắng (Victory) |
 | ELDER | TRƯỞNG LÃO | Elder/Senior |
