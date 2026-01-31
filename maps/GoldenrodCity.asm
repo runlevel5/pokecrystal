@@ -302,7 +302,7 @@ GoldenrodCityCooltrainerF1Text:
 	line "đồ đen kia đang"
 
 	para "giả ĐỘI ROCKET à?"
-	line "Thật buồn cười"
+	line "Thật buồn cười!"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
@@ -354,11 +354,11 @@ GoldenrodCityLassText:
 	done
 
 GoldenrodCityGrampsText:
-	text "Phù! Thị trấn này"
-	line "lớn quá. Tôi không"
+	text "Phù! Thành phố"
+	line "này lớn quá. Tôi"
 
-	para "biết gì ở đâu"
-	line "nữa."
+	para "không biết gì ở"
+	line "đâu nữa."
 	done
 
 GoldenrodCityRocketScoutText1:
@@ -413,23 +413,23 @@ GoldenrodCityRocket6Text:
 
 GoldenrodCityStationSignText:
 	text "NHÀ GA"
-	line "TP GOLDENROD"
+	line "TP. GOLDENROD"
 	done
 
 GoldenrodCityRadioTowerSignText:
 	text "THÁP RADIO"
-	line "TP GOLDENROD"
+	line "TP. GOLDENROD"
 	done
 
 GoldenrodDeptStoreSignText:
 	text "Đầy đủ hàng hóa"
 	line "#MON!"
 
-	para "TTMT TP GOLDENROD"
+	para "TTMT TP.GOLDENROD"
 	done
 
 GoldenrodGymSignText:
-	text "TP GOLDENROD"
+	text "TP. GOLDENROD"
 	line "GYM #MON"
 	cont "LEADER: WHITNEY"
 
@@ -438,7 +438,7 @@ GoldenrodGymSignText:
 	done
 
 GoldenrodCitySignText:
-	text "TP GOLDENROD"
+	text "TP. GOLDENROD"
 
 	para "Thành phố lễ hội"
 	line "đầy quyến rũ"
@@ -454,11 +454,12 @@ GoldenrodCityGameCornerSignText:
 	text "Sân chơi của bạn!"
 
 	para "GAME CORNER"
-	line "TP GOLDENROD"
+	line "TP. GOLDENROD"
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NGƯỜI ĐÁNH GIÁ TÊN"
+	text "NGƯỜI ĐÁNH GIÁ"
+	line "TÊN"
 
 	para "Đánh giá biệt"
 	line "danh #MON"

@@ -37,7 +37,7 @@ VioletMartGrannyText:
 VioletMartCooltrainerMText:
 	text "#MON có thể"
 	line "cầm vật phẩm như"
-	cont "POTION, ANTIDOTE."
+	cont "LỌ THUỐC, GIẢI ĐỘC"
 
 	para "Nhưng chúng không"
 	line "biết cách dùng"

@@ -378,8 +378,8 @@ GuideGentMartText:
 	done
 
 GuideGentRoute30Text:
-	text "ĐƯỜNG 30 nằm ở"
-	line "phía này."
+	text "TUYẾN ĐƯỜNG 30 nằm"
+	line "ở phía này."
 
 	para "Các HLV sẽ chiến"
 	line "đấu #MON quý"

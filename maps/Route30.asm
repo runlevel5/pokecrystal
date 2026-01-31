@@ -362,7 +362,7 @@ Route30CooltrainerFText:
 	done
 
 Route30SignText:
-	text "ĐƯỜNG 30"
+	text "TUYẾN ĐƯỜNG 30"
 
 	para "TP VIOLET -"
 	line "TP CHERRYGROVE"

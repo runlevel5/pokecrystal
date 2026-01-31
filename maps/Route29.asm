@@ -394,14 +394,14 @@ TuscanyNotTuesdayText:
 	done
 
 Route29Sign1Text:
-	text "ĐƯỜNG 29"
+	text "TUYẾN ĐƯỜNG 29"
 
 	para "TP. CHERRYGROVE -"
 	line "THỊ TRẤN NEW BARK"
 	done
 
 Route29Sign2Text:
-	text "ĐƯỜNG 29"
+	text "TUYẾN ĐƯỜNG 29"
 
 	para "TP. CHERRYGROVE -"
 	line "THỊ TRẤN NEW BARK"

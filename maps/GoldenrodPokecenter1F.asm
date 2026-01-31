@@ -662,15 +662,15 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text "COLOSSEUM ở trên"
+	line "là nơi đấu qua"
+	cont "dây nối."
 
-	para "Battle records are"
-	line "posted on the"
+	para "Kết quả được ghi"
+	line "trên tường nên"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "tôi không thể"
+	line "thua được."
 	done
 
 GoldenrodPokecomCenterPerson12Text: ; unreferenced
@@ -700,36 +700,33 @@ GoldenrodPokecomCenterPerson13Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "#MON cấp cao"
+	line "không phải lúc"
+	cont "nào cũng thắng."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Vì nó có thể bị"
+	line "bất lợi về hệ."
 
-	para "I don't think"
-	line "there is a single"
+	para "Tôi không nghĩ"
+	line "có #MON nào"
 
-	para "#MON that is"
-	line "the toughest."
+	para "mạnh nhất cả."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, đúng không?"
 
-	para "Congratulations!"
+	para "Chúc mừng bạn!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "Trong chương"
+	line "trình đặc biệt,"
+	cont "GS BALL được gửi!"
 
-	para "Please accept it!"
+	para "Hãy nhận nó nhé!"
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "Hãy ghé lại nhé!"
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
@@ -755,51 +752,50 @@ GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Ôi trời, balo bạn"
+	line "nặng quá nhỉ!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "À! Bạn có cái gì"
+	line "tên là EON MAIL"
+	cont "không?"
 
-	para "My daughter is"
-	line "after one."
+	para "Con gái tôi đang"
+	line "muốn một cái."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Bạn có thể cho"
+	line "một cái chứ?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Tặng EON MAIL?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Ồ, tuyệt vời!"
+	line "Cảm ơn em nhiều!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Đây, món quà đáp"
+	line "lễ cho em!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Con gái tôi sẽ"
+	line "rất vui mừng!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Hả? Em không có"
+	line "à? Tiếc quá."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Ồ… Vậy lần sau"
+	line "hãy ghé lại nhé."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> đã tặng"
+	line "EON MAIL."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

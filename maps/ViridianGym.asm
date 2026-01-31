@@ -77,11 +77,12 @@ LeaderBlueBeforeText:
 	line "mày chinh phục"
 	cont "hết GYM ở JOHTO?"
 
-	para "Heh! GYM của JOHTO"
-	line "chắc yếu lắm nhỉ."
+	para "Heh! GYM của"
+	line "JOHTO chắc yếu"
+	cont "lắm nhỉ."
 
-	para "Này, đừng lo"
-	line "về điều đó."
+	para "Này, đừng lo về"
+	line "điều đó."
 
 	para "Tao sẽ biết mày"
 	line "giỏi hay không"
@@ -90,7 +91,7 @@ LeaderBlueBeforeText:
 	line "mày ngay bây giờ."
 
 	para "Sẵn sàng chưa,"
-	line "NHÀ VÔ ĐỊCH JOHTO?"
+	line "V.ĐỊCH JOHTO?"
 	done
 
 LeaderBlueWinText:
@@ -138,7 +139,7 @@ LeaderBlueEpilogueText:
 	done
 
 ViridianGymGuideText:
-	text "Yo, NHÀ VÔ ĐỊCH"
+	text "Yo, V.ĐỊCH"
 	line "tương lai!"
 
 	para "Mọi thứ ổn chứ?"
@@ -148,8 +149,8 @@ ViridianGymGuideText:
 	para "T.LĨNH GYM là một"
 	line "người đã đấu với"
 
-	para "NHÀ VÔ ĐỊCH cách"
-	line "đây ba năm."
+	para "V.ĐỊCH cách đây"
+	line "ba năm."
 
 	para "Ông ấy không yếu."
 
@@ -162,7 +163,7 @@ ViridianGymGuideWinText:
 	line "quá mạnh…"
 
 	para "Đó là một trận"
-	line "đấu đầy cảm hứng."
+	line "đấu đầy cảm hứng"
 
 	para "Nó khiến tôi rơi"
 	line "nước mắt luôn."

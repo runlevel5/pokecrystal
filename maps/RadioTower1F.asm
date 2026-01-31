@@ -274,8 +274,8 @@ RadioTower1FLuckyNumberManOkayMatchText:
 	line "ba số cuối!"
 
 	para "Bạn đã thắng giải"
-	line "nhì, một EXP."
-	cont "SHARE!"
+	line "nhì, một CHIA SẺ"
+	cont "KN!"
 	done
 
 RadioTower1FLuckyNumberManWeakMatchText:
@@ -342,7 +342,7 @@ RadioTower1FRadioCardWomanQuestion3Text:
 	line "Câu hỏi 3:"
 
 	para "HM01 có chứa chiêu"
-	line "FLASH không?"
+	line "CẮT không?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:

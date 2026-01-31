@@ -171,7 +171,7 @@ FalknerTMMudSlapText:
 
 	para "Suy nghĩ trước"
 	line "khi dùng--TM chỉ"
-	cont "dùng được một lần"
+	cont "dùng được 1 lần."
 
 	para "TM31 chứa"
 	line "MUD-SLAP."

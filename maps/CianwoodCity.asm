@@ -180,8 +180,8 @@ CianwoodCityEusineDepartMovement:
 	step_end
 
 ChucksWifeEasierToFlyText:
-	text "Bạn vượt biển đến"
-	line "đây à?"
+	text "Bạn vượt biển"
+	line "đến đây à?"
 
 	para "Chắc vất vả"
 	line "lắm nhỉ."

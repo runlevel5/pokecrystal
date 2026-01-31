@@ -103,10 +103,10 @@ Jasmine_SteelTypeIntro:
 
 	para "Tôi là JASMINE,"
 	line "T.LĨNH GYM. Tôi"
-	cont "dùng hệ thép."
+	cont "dùng hệ THÉP."
 
 	para "…Bạn có biết về"
-	line "hệ thép không?"
+	line "hệ THÉP không?"
 
 	para "Đó là hệ mới được"
 	line "phát hiện gần"
@@ -162,7 +162,7 @@ Jasmine_GoodLuck:
 
 OlivineGymGuideText:
 	text "JASMINE dùng hệ"
-	line "thép mới được"
+	line "THÉP mới được"
 	cont "phát hiện."
 
 	para "Tôi không biết"
@@ -172,7 +172,7 @@ OlivineGymGuideText:
 OlivineGymGuideWinText:
 	text "Quá tuyệt vời."
 
-	para "Hệ thép, hả?"
+	para "Hệ THÉP, hả?"
 
 	para "Đó là cuộc chạm"
 	line "trán với một thứ"

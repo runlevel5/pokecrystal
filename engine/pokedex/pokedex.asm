@@ -1127,7 +1127,7 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "BẮT GẶP", -1
+	db "THẤY", -1
 String_OWN:
 	db "SỞ HỮU", -1
 String_SELECT_OPTION:

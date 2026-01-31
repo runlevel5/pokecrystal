@@ -202,7 +202,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 
 SproutTowerRivalUsedEscapeRopeText:
 	text "<RIVAL> đã dùng"
-	line "ESCAPE ROPE!"
+	line "DÂY THOÁT!"
 	done
 
 SageLiSeenText:

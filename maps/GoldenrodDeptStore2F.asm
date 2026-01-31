@@ -59,41 +59,40 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "#GEAR có thể lưu"
+	line "tới mười số điện"
+	cont "thoại."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Khó quyết định số"
+	line "nào để giữ."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "Tôi có ABRA từ"
+	line "GAME CORNER."
 
-	para "Now it's my best"
-	line "partner."
+	para "Giờ nó là bạn đồng"
+	line "hành tốt nhất."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "TTMT này làm tôi"
+	line "nhận ra"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "GOLDENROD là thành"
+	line "phố lớn."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Lựa chọn ở đây"
+	line "chưa từng có ở"
+	cont "nơi khác."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Bạn Đồng Hành"
+	line "Du Lịch"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2T CHỢ"
+	line "   HLV"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

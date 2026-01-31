@@ -86,11 +86,12 @@ ViridianCityMartSign:
 	jumpstd MartSignScript
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Này, nhóc! Tôi vừa"
-	line "uống hai ly cà phê"
+	text "Này, nhóc! Tôi"
+	line "vừa uống hai ly"
+	cont "cà phê đậm,"
 
-	para "đậm, và tôi đang"
-	line "phấn khích đây!"
+	para "và tôi đang phấn"
+	line "khích đây!"
 
 	para "Tôi cần nói với"
 	line "ai đó, nên cậu"
@@ -103,7 +104,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	line "chuyên gia bắt"
 	cont "#MON đấy."
 
-	para "Cậu tin không?"
+	para "Cậu có tin không?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
@@ -119,10 +120,10 @@ ViridianCityCoffeeGrampsDoubtedText:
 	line "con này!"
 
 	para "Nếu tôi trẻ hơn"
-	line "một chút, tôi sẽ"
+	line "chút, tôi sẽ cho"
 
-	para "cho cậu thấy một"
-	line "vài điều. Hừ!"
+	para "cậu thấy một vài"
+	line "điều. Hừ!"
 	done
 
 ViridianCityGrampsNearGymText:
@@ -196,7 +197,7 @@ ViridianGymSignText:
 	cont "TRƯỞNG: …"
 
 	para "Phần còn lại của"
-	line "chữ không đọc được"
+	line "chữ không rõ được"
 	done
 
 ViridianCityWelcomeSignText:

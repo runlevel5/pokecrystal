@@ -959,7 +959,7 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>,"
+	text "<PLAY_G>,"
 	line "thật khủng khiếp…"
 
 	para "À đúng rồi, phát"
@@ -974,7 +974,7 @@ ElmAfterTheftText2:
 	done
 
 ElmAfterTheftText3:
-	text "ELM: Cái này?"
+	text "Cái này?"
 	done
 
 ElmAfterTheftText4:
@@ -986,7 +986,7 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "ELM: Gì cơ?!?"
+	text "Gì cơ?!?"
 
 	para "GS OAK cho con"
 	line "#DEX á?"
@@ -1027,7 +1027,7 @@ ElmAfterTheftText6:
 	done
 
 ElmStudyingEggText:
-	text "ELM: Đừng bỏ cuộc!"
+	text "Đừng bỏ cuộc!"
 	line "Thầy sẽ gọi nếu"
 
 	para "biết gì về TRỨNG"

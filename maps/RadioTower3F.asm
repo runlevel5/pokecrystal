@@ -310,12 +310,12 @@ ScientistMarcAfterBattleText:
 
 RadioTower3FCardKeySlotText:
 	text "Đây là khe cắm"
-	line "CARD KEY."
+	line "THẺ KHÓA."
 	done
 
 InsertedTheCardKeyText:
 	text "<PLAYER> đã cắm"
-	line "CARD KEY."
+	line "THẺ KHÓA."
 	done
 
 RadioTower3FPersonnelSignText:

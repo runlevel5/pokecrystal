@@ -402,7 +402,7 @@ Route31YoungsterText:
 	done
 
 Route31SignText:
-	text "ĐƯỜNG 31"
+	text "TUYẾN ĐƯỜNG 31"
 
 	para "TP VIOLET -"
 	line "TP CHERRYGROVE"

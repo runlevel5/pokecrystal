@@ -226,8 +226,8 @@ VioletCitySuperNerdText:
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, từ"
-	line "GYM #MON VIOLET,"
+	text "FALKNER, từ GYM"
+	line "#MON VIOLET,"
 
 	para "là một HLV"
 	line "tuyệt vời!"
