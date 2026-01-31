@@ -8425,11 +8425,11 @@ DisplayLinkBattleResult:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "BẠN THẮNG@"
 .YouLose:
-	db "YOU LOSE@"
+	db "BẠN THUA@"
 .Draw:
-	db "  DRAW@"
+	db "  HÒA@"
 
 .Mobile_InvalidBattle:
 	hlcoord 6, 8
