@@ -2,6 +2,9 @@
 """
 Check that text lines in assembly files don't exceed the maximum character width.
 This helps ensure text fits on the Game Boy screen (20 tiles wide, but typically 18 usable).
+
+You can override the max length for a file by adding a comment at the top:
+; pokemon-translate-lint: max-length=8
 """
 
 import sys
@@ -11,6 +14,9 @@ from pathlib import Path
 
 # Maximum characters per line (Game Boy screen is 20 tiles, but borders take 2)
 MAX_LINE_LENGTH = 18
+
+# Pattern to match lint directive comment
+LINT_DIRECTIVE_PATTERN = re.compile(r";\s*pokemon-translate-lint:\s*max-length=(\d+)")
 
 # Patterns to match text definitions
 # Matches: db "text here", text "...", line "...", cont "...", para "...", next "..."
@@ -165,12 +171,20 @@ def get_visible_length(text):
     return length
 
 
-def check_file(filepath):
+def check_file(filepath, global_max_length=MAX_LINE_LENGTH):
     """Check a single file for text lines exceeding max length."""
     errors = []
 
     with open(filepath, "r", encoding="utf-8") as f:
         lines = f.readlines()
+
+    # Check for per-file max-length directive in the first 10 lines
+    file_max_length = global_max_length
+    for line in lines[:10]:
+        match = LINT_DIRECTIVE_PATTERN.search(line)
+        if match:
+            file_max_length = int(match.group(1))
+            break
 
     for line_num, line in enumerate(lines, 1):
         match = TEXT_STRING_PATTERN.match(line)
@@ -178,14 +192,14 @@ def check_file(filepath):
             text = match.group(1)
             visible_len = get_visible_length(text)
 
-            if visible_len > MAX_LINE_LENGTH:
+            if visible_len > file_max_length:
                 errors.append(
                     {
                         "file": filepath,
                         "line": line_num,
                         "text": text,
                         "length": visible_len,
-                        "max": MAX_LINE_LENGTH,
+                        "max": file_max_length,
                     }
                 )
 
@@ -227,7 +241,7 @@ def main():
         # Check specific files
         for filepath in args.files:
             if os.path.isfile(filepath):
-                all_errors.extend(check_file(filepath))
+                all_errors.extend(check_file(filepath, max_length))
     else:
         # Check default paths
         for check_path in CHECK_PATHS:
@@ -235,10 +249,10 @@ def main():
             if full_path.is_dir():
                 for asm_file in full_path.rglob("*.asm"):
                     if asm_file.name not in EXCLUDE_FILES:
-                        all_errors.extend(check_file(str(asm_file)))
+                        all_errors.extend(check_file(str(asm_file), max_length))
             elif full_path.is_file():
                 if full_path.name not in EXCLUDE_FILES:
-                    all_errors.extend(check_file(str(full_path)))
+                    all_errors.extend(check_file(str(full_path), max_length))
 
     # Filter by max_length if different from default
     if max_length != MAX_LINE_LENGTH:
@@ -249,7 +263,7 @@ def main():
     # Report errors
     if all_errors:
         print(
-            f"Text length errors found ({len(all_errors)} lines exceed {max_length} characters):\n"
+            f"Text length errors found ({len(all_errors)} lines exceed max characters):\n"
         )
         for error in all_errors:
             print(
@@ -262,7 +276,7 @@ def main():
         if not args.warn_only:
             sys.exit(1)
     else:
-        print(f"All text lines are within {max_length} characters.")
+        print(f"All text lines are within the allowed character limits.")
 
     sys.exit(0)
 

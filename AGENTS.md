@@ -70,6 +70,33 @@ All Pokemon species names remain in English:
 |---------|------------|-------|
 | MR. POKEMON | ÔNG LÃO POKEMON | The old man who gives you the Mystery Egg |
 
+## Pokemon Types
+
+All 17 Pokemon types translated to Vietnamese:
+
+| English | Vietnamese |
+|---------|------------|
+| NORMAL | B.THƯỜNG |
+| FIGHTING | VÕ THUẬT |
+| FLYING | BAY LƯỢN |
+| POISON | ĐỘC |
+| GROUND | ĐẤT |
+| ROCK | SỎI ĐÁ |
+| BUG | SÂU BỌ |
+| GHOST | MA |
+| STEEL | THÉP |
+| FIRE | LỬA |
+| WATER | NƯỚC |
+| GRASS | CỎ |
+| ELECTRIC | ĐIỆN |
+| PSYCHIC | TÂM LINH |
+| ICE | ĐÁ BĂNG |
+| DRAGON | RỒNG |
+| DARK | HẮC ÁM |
+| BIRD | CHIM |
+
+Note: BIRD type exists in code but is unused. ??? (CURSE_TYPE) is a special hidden type.
+
 ## Pronoun Guidelines
 
 Vietnamese pronouns are chosen based on relationship and context:

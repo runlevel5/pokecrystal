@@ -1234,19 +1234,19 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " SEARCH ", $3c, -1
+	db $3b, "TRA KHẢO", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
+	db   "HỆ 1"
+	next "HỆ 2"
 	db   "@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "BẮT ĐẦU TÌM!!"
+	next "HUỶ"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
