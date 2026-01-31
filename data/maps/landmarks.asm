@@ -134,7 +134,7 @@ IcePathName:         db "LỐI BĂNG@"
 NotApplicableName:   db "N/A@" ; unreferenced ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
 PalletTownName:      db "TRẤN PALLET@"
 ViridianCityName:    db "TP.<BSP>VIRIDIAN@"
-PewterCityName:      db "TP. PEWTER@"
+PewterCityName:      db "TP.<BSP>PEWTER@"
 CeruleanCityName:    db "TP.<BSP>CERULEAN@"
 LavenderTownName:    db "TRẤN<BSP>LAVENDER@"
 VermilionCityName:   db "TP.<BSP>VERMILION@"
