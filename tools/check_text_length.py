@@ -47,8 +47,6 @@ CONTROL_CODES = {
     "<PC>",
     "<TM>",
     "<TRAINER>",
-    "<ROCKET>",
-    "<DEXEND>",
     "<PK>",
     "<MN>",
     "<DOT>",
@@ -84,6 +82,12 @@ CONTROL_CODES = {
     "<ID>",
 }
 
+# Single-tile sprites (count as 1 character)
+SINGLE_TILE_CODES = {
+    "<ROCKET>",  # "m" sprite (meter)
+    "<DEXEND>",  # "kg" sprite (kilogram)
+}
+
 # Control codes that expand to variable-length strings (max lengths)
 VARIABLE_LENGTH_CODES = {
     "<PLAYER>": 8,  # Player name, max 8 chars
@@ -115,6 +119,7 @@ def get_visible_length(text):
     Calculate the visible length of a text string, accounting for:
     - Control codes that expand to variable-length strings
     - Special characters that expand to multiple tiles
+    - Single-tile sprite codes (count as 1)
     - Multi-byte Vietnamese characters (count as 1)
     """
     length = 0
@@ -123,6 +128,12 @@ def get_visible_length(text):
     for code, max_len in VARIABLE_LENGTH_CODES.items():
         count = text.count(code)
         length += count * max_len
+        text = text.replace(code, "")
+
+    # Handle single-tile codes (count as 1 character each)
+    for code in SINGLE_TILE_CODES:
+        count = text.count(code)
+        length += count
         text = text.replace(code, "")
 
     # Remove remaining control codes (they don't render)
