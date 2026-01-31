@@ -4,6 +4,9 @@ MACRO landmark
 	dw \3
 ENDM
 
+; Landmark names must be within 18 characters total.
+; <BSP> is a line break and counts as 1 character.
+
 Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	table_width 4
