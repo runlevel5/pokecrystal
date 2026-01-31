@@ -761,7 +761,7 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "KÈM@"
+	db "GIỮ@"
 
 .ThreeDashes:
 	db "---@"
