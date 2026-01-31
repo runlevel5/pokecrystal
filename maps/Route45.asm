@@ -529,7 +529,7 @@ CamperQuentinAfterBattleText:
 
 Route45SignText:
 	text "TUYẾN ĐƯỜNG 45"
-	line "ĐƯỜNG NÚI PHI TRƯỚC"
+	line "ĐỐI DIỆN NÚI PHI"
 	done
 
 Route45_MapEvents:
