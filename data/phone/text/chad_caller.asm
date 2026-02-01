@@ -77,7 +77,7 @@ ChadBlueGossipText:
 	line "GS OAK và"
 
 	para "cựu VÔ ĐỊCH"
-	line "#MON LEAGUE!"
+	line "LIÊN ĐOÀN #MON!"
 
 	para "Cậu ấy là HLV"
 	line "#MON siêu đẳng!"
@@ -129,9 +129,9 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "#MON LEAGUE là"
-	line "nơi tập hợp vĩ đại"
-	cont "của tất cả"
+	text "LIÊN ĐOÀN #MON"
+	line "là nơi tập hợp"
+	cont "vĩ đại của tất cả"
 
 	para "HLV muốn trở"
 	line "thành VÔ ĐỊCH."

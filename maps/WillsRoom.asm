@@ -80,7 +80,7 @@ WillsRoom_EnterMovement:
 
 WillScript_WillBeforeText:
 	text "Chào mừng đến"
-	line "#MON LEAGUE,"
+	line "LIÊN ĐOÀN #MON,"
 	cont "<PLAYER>."
 
 	para "Để ta tự giới"

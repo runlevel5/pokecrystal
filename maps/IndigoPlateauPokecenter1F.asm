@@ -202,10 +202,10 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "Ở #MON LEAGUE,"
-	line "bạn sẽ bị thử"
+	text "Ở LIÊN ĐOÀN"
+	line "#MON, bạn sẽ"
 
-	para "thách bởi"
+	para "bị thử thách bởi"
 	line "TỨ THIÊN VƯƠNG."
 
 	para "Bạn phải thắng"

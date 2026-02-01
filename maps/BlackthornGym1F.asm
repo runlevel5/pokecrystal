@@ -261,8 +261,8 @@ BlackthornGymClairText_League:
 	text "Có chuyện gì vậy?"
 
 	para "Ngươi không đi"
-	line "đến #MON LEAGUE"
-	cont "à?"
+	line "đến LIÊN ĐOÀN"
+	cont "#MON à?"
 
 	para "Ngươi không biết"
 	line "nó ở đâu sao?"
@@ -275,7 +275,8 @@ BlackthornGymClairText_League:
 	cont "rất gian nan."
 
 	para "Đừng có dám thua"
-	line "ở #MON LEAGUE!"
+	line "ở LIÊN ĐOÀN"
+	cont "#MON!"
 
 	para "Nếu ngươi thua,"
 	line "ta sẽ còn cảm"
@@ -380,7 +381,7 @@ BlackthornGymGuideWinText:
 	line "thắng CLAIR!"
 
 	para "Chỉ còn thử thách"
-	line "#MON LEAGUE"
+	line "LIÊN ĐOÀN #MON"
 	cont "nữa thôi."
 
 	para "Bạn đang trên"

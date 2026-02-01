@@ -227,7 +227,7 @@ LanceBattleIntroText:
 	line "HLV mạnh nhất và"
 
 	para "là CHAMPION của"
-	line "#MON LEAGUE…"
+	line "LIÊN ĐOÀN #MON…"
 
 	para "Ta, LANCE bậc"
 	line "thầy rồng, chấp"
