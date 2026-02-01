@@ -145,6 +145,11 @@ def get_visible_length(text):
     # Remove remaining control codes (they don't render)
     visible = CONTROL_CODE_PATTERN.sub("", text)
 
+    # Handle {d:...} number macros (expand to max 3 digits)
+    import re
+
+    visible = re.sub(r"\{d:[^}]+\}", "999", visible)
+
     # Count visible characters
     # Special handling for # which expands to "POKé" (4 tiles)
     # #MON = "POKéMON" = 7 tiles

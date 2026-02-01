@@ -117,6 +117,27 @@ Stat names are translated to Vietnamese:
 
 Note: HP and PP remain in English as they are universal gaming terms.
 
+#### Pokemon Physical Attributes (Weight & Height)
+
+Pokemon weight and height statistics have been **converted from imperial to SI metric units** for the Vietnamese localization:
+
+| Attribute | Original (English) | Vietnamese Version |
+|-----------|-------------------|-------------------|
+| **Height** | Feet and inches (e.g., 5'11") | Meters (e.g., 1.8m) |
+| **Weight** | Pounds (e.g., 150 lbs) | Kilograms (e.g., 68kg) |
+
+**Examples:**
+- Pikachu: 1'04" / 13 lbs → 0.4m / 6kg
+- Charizard: 5'07" / 200 lbs → 1.7m / 91kg
+- Snorlax: 6'11" / 1014 lbs → 2.1m / 460kg
+
+**Implementation:**
+- Height and weight conversions are handled in the Pokedex data files
+- Display format uses Vietnamese-friendly metric units (m, kg)
+- Conversions maintain reasonable precision (rounded to 1 decimal place for height, whole numbers for weight)
+
+This change makes the game more accessible to Vietnamese players who use the metric system in daily life.
+
 #### 5. Pokemon Names
 All Pokemon species names remain in English:
 - PIKACHU, RATTATA, BELLSPROUT, PIDGEY, TOGEPI, etc.
