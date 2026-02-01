@@ -195,11 +195,11 @@ MagikarpLengthRaterText_Refused:
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "KỶ LỤC HIỆN TẠI"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
+	text " bắt bởi"
 	line "@"
 	text_ram wStringBuffer4
 	text_end

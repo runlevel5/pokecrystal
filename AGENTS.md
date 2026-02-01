@@ -425,6 +425,31 @@ There are **two font files** that must contain Vietnamese characters:
 
 Both fonts must have the same character layout matching the charmap in `constants/charmap.asm`.
 
+### Vietnamese Character Set Limitation
+
+**Important Note**: Due to the Game Boy's hardware limitations and the font table size constraints, a compromise was made to support Vietnamese characters:
+
+- **Removed**: Separate uppercase and lowercase English alphabet characters
+- **Reason**: To fit all Vietnamese accented characters (á, à, ả, ã, ạ, ă, â, ê, ư, ô, ơ, đ, etc.) into the limited font table
+- **Result**: All text now uses a single case system (lowercase-style characters for both cases)
+- **Implementation**: See commit `f1f7ea47353b5bf7ffdfee1f4b7e8341b853ad06` for full details
+
+**Character Table Layout** (from commit f1f7ea4):
+```
+| Row | $x0 | $x1  | $x2  | $x3 | $x4 | $x5 | $x6 | $x7 | $x8 | $x9 | $xA | $xB | $xC | $xD | $xE | $xF |
+|-----|-----|------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| $8x | a   | b    | c    | d   | e   | f   | g   | h   | i   | j   | k   | l   | m   | n   | o   | p   |
+| $9x | q   | r    | s    | t   | u   | v   | w   | x   | y   | z   | ă   | â   | ê   | ư   | ô   | ơ   |
+| $Ax | á   | à    | ả    | ã   | ạ   | é   | è   | ẻ   | ẽ   | ẹ   | í   | ì   | ỉ   | ĩ   | ị   | đ   |
+| $Bx | ó   | ò    | ỏ    | õ   | ọ   | ú   | ù   | ủ   | ũ   | ụ   | ý   | ỳ   | ỷ   | ỹ   | ỵ   | [   |
+| $Cx | ắ   | ằ    | ẳ    | ẵ   | ặ   | ấ   | ầ   | ẩ   | ẫ   | ậ   | ế   | ề   | ể   | ễ   | ệ   | ]   |
+| $Dx | ố   | ồ    | ổ    | ỗ   | ộ   | ớ   | ờ   | ở   | ỡ   | ợ   | ứ   | ừ   | ử   | ữ   | ự   | ←   |
+| $Ex | '   | <PK> | <MN> | -   | (   | )   | ?   | !   | .   | &   | :   | →   | ▷   | ▶   | ▼   | ♂   |
+| $Fx | ¥   | x    | .    | /   | ,   | ♀   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
+```
+
+This trade-off allows full Vietnamese text support while maintaining compatibility with the original Game Boy hardware. English text (Pokemon names, technical terms) remains readable in the single-case format.
+
 ## Translation Conventions
 
 1. **UPPERCASE keywords stay in English**: If a keyword or term is written in ALL CAPS (e.g., POTION, ATTACK, PIKACHU), leave it in English. These are game-specific identifiers.
